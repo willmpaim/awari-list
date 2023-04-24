@@ -1,4 +1,4 @@
-function List({ usersList = [] }) {
+function List({usersList}) {
 
     const usersMap = usersList.map((user) => {
         return (
@@ -14,5 +14,4 @@ function List({ usersList = [] }) {
         </ul>
     )
 }
-
 export default List;
